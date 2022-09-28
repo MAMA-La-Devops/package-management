@@ -1,6 +1,6 @@
 # CREATE HOSTNAME
 sudo hostname auto
-sudo yum install wget -y
+sudo yum install git vim wget -y
 sudo wget -O /etc/yum.repos.d/jenkins.repo \
     https://pkg.jenkins.io/redhat-stable/jenkins.repo
 sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
